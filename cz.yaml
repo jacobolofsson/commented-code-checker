@@ -1,0 +1,5 @@
+---
+commitizen:
+  version: 0.1.0
+  version_files:
+    - Cargo.toml:version
