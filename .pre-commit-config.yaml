@@ -16,3 +16,10 @@ repos:
       - id: fmt
       - id: cargo-check
       - id: clippy
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.42.0
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        # check all the way from initial commit
+        args: [--rev-range, 4cf71f45ab6daf80480cb32d3b181664a181eeef..HEAD]
