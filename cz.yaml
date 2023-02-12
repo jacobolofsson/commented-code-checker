@@ -2,4 +2,5 @@
 commitizen:
   version: 0.2.0
   version_files:
-  - Cargo.toml:version
+    - Cargo.toml:version
+    - Cargo.lock:version
