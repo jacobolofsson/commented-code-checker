@@ -3,6 +3,7 @@ name: Bump version
 on:
   schedule:
     - cron: "* 15 * * *"
+  workflow_dispatch:
 
 jobs:
   bump_version:
