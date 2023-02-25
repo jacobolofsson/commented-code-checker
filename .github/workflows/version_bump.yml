@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     name: "Bump version and create changelog with commitizen"
     steps:
-      # need cargo for pre-bump hook
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
       - name: Check out
         uses: actions/checkout@v3
         with:
