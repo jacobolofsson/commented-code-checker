@@ -29,6 +29,4 @@ jobs:
           title: Bump version ${{ steps.cz.outputs.version }}
       # add tag manually, since the PR action does not push tags
       - run: |
-          git checkout bump-version-${{ steps.cz.outputs.version }}
-          git tag ${{ steps.cz.outputs.version }}
-          git push origin ${{ steps.cz.outputs.version }}
+          git push origin --tags
