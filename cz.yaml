@@ -2,6 +2,6 @@
 commitizen:
   pre_bump_hooks:
   - scripts/update_cargo_workspace.sh
-  version: 0.3.0
+  version: 0.3.1
   version_files:
   - Cargo.toml:version
